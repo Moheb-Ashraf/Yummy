@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body class="overflow-hidden">
+    <!-- ^ loading screen -->
+
+    <div class="loading position-fixed top-0 bottom-0 start-0 end-0 bg-black">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+
+    <!-- ^ side nav minu -->
+    <div class="d-flex min-vh-100 position-fixed side-nav-minu-close">
+        <div class="side-nav-minu p-3 ps-4 d-flex flex-column justify-content-between ">
+            <ul class="list-unstyled overflow-hidden links">
+                <li class="py-2 position-relative cursor-pointer" onclick="showInputSearch()">Search</li>
+                <li class="py-2 position-relative cursor-pointer" onclick="categories()">Categories</li>
+                <li class="py-2 position-relative cursor-pointer" onclick="Area()">Area</li>
+                <li class="py-2 position-relative cursor-pointer" onclick="Ingredients()">Ingredients</li>
+                <li class="py-2 position-relative cursor-pointer" onclick="ShowContactUs()">Contact Us</li>
+            </ul>
+            <div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p>Copyright Â© 2019 All Rights
+                    <br> Reserved.
+                </p>
+            </div>
+        </div>
+        <div class="bg-white logo text-center d-flex flex-column justify-content-between ">
+            <div class="d-block">
+                <img class="w-100" src="./images/logo.png" alt="">
+            </div>
+            <div class="fa-2x close-open-nav">
+                <i class="fa-solid openAndClose fa-bars"></i>
+            </div>
+            <div>
+                <div class="d-block">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <i class="fa-solid fa-share"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ^ search -->
+
+    <div class="container">
+        <div class="row search" id="SearchInput">
+
+        </div>
+    </div>
+
+
+    <!-- ^ home page -->
+
+    <div class="container pt-5">
+        <div class="row g-4" id="dataMeals">
+
+        </div>
+    </div>
+
+
+
+    <!-- ^ contact -->
+
+    <!-- <div class="container w-75 min-vh-100 d-flex justify-content-center align-items-center flex-column " >
+        <div class="row g-4" >
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your Phone">
+            </div>
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your Password">
+            </div>
+            <div class="col-md-6">
+                <input class="w-100 form-control" type="text" placeholder="Enter Your RePassword">
+            </div>
+        </div>
+        <button disabled class="btn btn-outline-danger mt-3 ">
+            Submit
+        </button>
+    </div> -->
+
+
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
